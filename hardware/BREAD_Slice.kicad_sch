@@ -5,7 +5,7 @@
 	(uuid "bfc0aadc-38cf-466e-a642-68fdc3138c78")
 	(paper "A4")
 	(lib_symbols
-		(symbol "BREAD_Slice-rescue:10uF_t-OCI_UPL_2_Capacitors-BREAD_Slice-rescue"
+		(symbol "Device:C_Polarized_US"
 			(pin_numbers
 				(hide yes)
 			)
@@ -106,7 +106,7 @@
 					)
 				)
 			)
-			(symbol "10uF_t-OCI_UPL_2_Capacitors-BREAD_Slice-rescue_0_1"
+			(symbol "C_Polarized_US_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -156,7 +156,7 @@
 					)
 				)
 			)
-			(symbol "10uF_t-OCI_UPL_2_Capacitors-BREAD_Slice-rescue_1_1"
+			(symbol "C_Polarized_US_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -6890,7 +6890,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BREAD_Slice-rescue:10uF_t-OCI_UPL_2_Capacitors-BREAD_Slice-rescue")
+		(lib_id "Device:C_Polarized_US")
 		(at 40.64 34.29 0)
 		(unit 1)
 		(body_style 1)
@@ -7946,7 +7946,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BREAD_Slice-rescue:10uF_t-OCI_UPL_2_Capacitors-BREAD_Slice-rescue")
+		(lib_id "Device:C_Polarized_US")
 		(at 53.34 34.29 0)
 		(unit 1)
 		(body_style 1)
@@ -9076,7 +9076,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BREAD_Slice-rescue:10uF_t-OCI_UPL_2_Capacitors-BREAD_Slice-rescue")
+		(lib_id "Device:C_Polarized_US")
 		(at 62.23 144.78 90)
 		(unit 1)
 		(body_style 1)
