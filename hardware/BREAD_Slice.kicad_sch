@@ -196,7 +196,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x03_Male"
+		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -281,7 +281,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x03_Male_1_1"
+			(symbol "Conn_01x03_Pin_1_1"
 				(rectangle
 					(start 0.8636 2.667)
 					(end 0 2.413)
@@ -9683,7 +9683,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Male")
+		(lib_id "Connector:Conn_01x03_Pin")
 		(at 55.88 163.83 0)
 		(unit 1)
 		(body_style 1)
