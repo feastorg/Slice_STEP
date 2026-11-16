@@ -6311,7 +6311,7 @@
 			)
 		)
 		(path "/00000000-0000-0000-0000-00005fe84189")
-		(attr through_hole)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.97 -1.07)
@@ -6404,7 +6404,7 @@
 			)
 		)
 		(path "/00000000-0000-0000-0000-00005fa94020")
-		(attr through_hole)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.97 -1.07)
@@ -8177,7 +8177,7 @@
 			)
 		)
 		(path "/00000000-0000-0000-0000-000060978411")
-		(attr through_hole)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1 1.07)
