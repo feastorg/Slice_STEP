@@ -68,10 +68,19 @@ only. No position ties the CUSTOM supply to the bus.
 
 - 8-35 V is the A4988 carrier's motor supply range (Pololu #1182). The
   CUSTOM input's bypass capacitor C3 is rated 50 V (10 uF X7R).
-- In 12 V mode all four drivers draw through the bus feed; its narrowest
-  stretch is 1.0 mm of 1 oz copper, about 2.4 A in total for a 10 C rise
-  (IPC-2221 estimate). The M_POWER runs to the drivers are 1.5 mm, about
-  3.2 A on the same basis.
+- Every figure below is the total VMOT current of all four drivers
+  together, not a per-driver figure (IPC-2221 estimate, 1 oz outer copper,
+  20 C rise unless stated). All of it passes through the J5 jumper, so it
+  is also capped by the rating of the shunt fitted there.
+- 12 V mode: the bus feed's narrowest stretch is 1.0 mm, about 3.2 A
+  (2.4 A for a 10 C rise).
+- CUSTOM mode: the run from J6 pin 1 to J5 pin 1 is 1.5 mm, about 4.3 A.
+- From J5 pin 2, M_POWER carries all four drivers through a 1.9 mm neck
+  between J4 pin 8 and J5 pin 3 (about 5.2 A), then a pour at least 4.2 mm
+  wide to C6 (drivers 1-3), then 2.5 mm to drivers 2 and 1. Each pin 8
+  takes its own driver's current only.
+- So the board carries about 3 A in total in 12 V mode and about 4 A in
+  CUSTOM mode, shared by however many drivers run at once.
 
 ## Microstep mode
 
