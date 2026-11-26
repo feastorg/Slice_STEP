@@ -240,7 +240,24 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_not_driven|990600|317500|4e5885ed-0c47-4681-9602-a3417391c85c|00000000-0000-0000-0000-000000000000|/bfc0aadc-38cf-466e-a642-68fdc3138c78|/bfc0aadc-38cf-466e-a642-68fdc3138c78|",
+        "A1 ~RESET is tied to ~SLEEP; the Pololu A4988 carrier pulls ~SLEEP high on the module, which ERC cannot see"
+      ],
+      [
+        "pin_not_driven|1447800|317500|bd93f37a-7e82-4ebb-b973-548b8000061b|00000000-0000-0000-0000-000000000000|/bfc0aadc-38cf-466e-a642-68fdc3138c78|/bfc0aadc-38cf-466e-a642-68fdc3138c78|",
+        "A2 ~RESET is tied to ~SLEEP; the Pololu A4988 carrier pulls ~SLEEP high on the module, which ERC cannot see"
+      ],
+      [
+        "pin_not_driven|1892300|317500|e3f679b6-5c5e-4ea3-84f1-038307cbf07d|00000000-0000-0000-0000-000000000000|/bfc0aadc-38cf-466e-a642-68fdc3138c78|/bfc0aadc-38cf-466e-a642-68fdc3138c78|",
+        "A3 ~RESET is tied to ~SLEEP; the Pololu A4988 carrier pulls ~SLEEP high on the module, which ERC cannot see"
+      ],
+      [
+        "pin_not_driven|2362200|317500|bb20566b-0d1f-440a-8118-f80088914882|00000000-0000-0000-0000-000000000000|/bfc0aadc-38cf-466e-a642-68fdc3138c78|/bfc0aadc-38cf-466e-a642-68fdc3138c78|",
+        "A4 ~RESET is tied to ~SLEEP; the Pololu A4988 carrier pulls ~SLEEP high on the module, which ERC cannot see"
+      ]
+    ],
     "meta": {
       "version": 0
     },
