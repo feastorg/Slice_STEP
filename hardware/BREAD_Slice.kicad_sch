@@ -5884,12 +5884,12 @@
 		(uuid "1199146e-a60b-416a-b503-e77d6d2892f9")
 	)
 	(label "M_POWER"
-		(at 60.96 170.18 270)
+		(at 68.58 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "18c61c95-8af1-4986-b67e-c7af9c15ab6b")
 	)
@@ -9766,7 +9766,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 68.58 163.83 270)
+		(at 60.96 170.18 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9776,7 +9776,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006099bab9")
 		(property "Reference" "#PWR0110"
-			(at 64.77 163.83 0)
+			(at 60.96 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9787,7 +9787,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 72.9742 164.211 0)
+			(at 60.96 174.2558 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9797,7 +9797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 163.83 0)
+			(at 60.96 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9808,7 +9808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 163.83 0)
+			(at 60.96 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9819,7 +9819,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 163.83 0)
+			(at 60.96 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11230,7 +11230,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 60.96 170.18 0)
+		(at 68.58 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11240,7 +11240,7 @@
 		(dnp no)
 		(uuid "a5c57f4c-ff74-48c7-a2b7-851efd47a4eb")
 		(property "Reference" "#FLG03"
-			(at 60.96 168.275 0)
+			(at 68.58 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11251,7 +11251,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 60.96 166.37 0)
+			(at 68.58 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11261,7 +11261,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 170.18 0)
+			(at 68.58 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11272,7 +11272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 170.18 0)
+			(at 68.58 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11283,7 +11283,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 60.96 170.18 0)
+			(at 68.58 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
