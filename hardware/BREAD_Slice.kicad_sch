@@ -5,7 +5,7 @@
 	(uuid "bfc0aadc-38cf-466e-a642-68fdc3138c78")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C_Polarized_US"
+		(symbol "Device:C_US"
 			(pin_numbers
 				(hide yes)
 			)
@@ -29,7 +29,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "10uF_t-OCI_UPL_2_Capacitors-BREAD_Slice-rescue"
+			(property "Value" "C_US"
 				(at 0.635 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -40,29 +40,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "OCI_UPL_FOOTPRINTS:C_2312"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.digikey.com/short/qcd8n7"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Description" ""
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -73,29 +51,7 @@
 					)
 				)
 			)
-			(property "Part #" "T491C106K025AT"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "UPL #" "2.021"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SMD*_Pol c_elec* C*elec TantalC* Elko* CP*"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -106,37 +62,46 @@
 					)
 				)
 			)
-			(symbol "C_Polarized_US_0_1"
+			(property "Description" "capacitor, US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_US_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.778) (xy -1.27 2.794)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -156,21 +121,21 @@
 					)
 				)
 			)
-			(symbol "C_Polarized_US_1_1"
+			(symbol "C_US_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
 					(name ""
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -181,14 +146,14 @@
 					(name ""
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -7005,7 +6970,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
+		(lib_id "Device:C_US")
 		(at 40.64 34.29 0)
 		(unit 1)
 		(body_style 1)
@@ -7026,7 +6991,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF_t"
+		(property "Value" "10uF 50V"
 			(at 43.561 35.433 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7037,7 +7002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OCI_UPL_FOOTPRINTS:C_2312"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 40.64 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7048,7 +7013,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/short/qcd8n7"
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM32ER71H106KA12%23"
 			(at 40.64 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -7070,7 +7035,7 @@
 				)
 			)
 		)
-		(property "Part #" "T491C106K025AT"
+		(property "Part #" "GRM32ER71H106KA12L"
 			(at 40.64 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -7081,7 +7046,7 @@
 				)
 			)
 		)
-		(property "UPL #" "2.021"
+		(property "UPL #" ""
 			(at 40.64 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8061,7 +8026,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
+		(lib_id "Device:C_US")
 		(at 53.34 34.29 0)
 		(unit 1)
 		(body_style 1)
@@ -8082,7 +8047,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF_t"
+		(property "Value" "10uF 50V"
 			(at 56.261 35.433 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8093,7 +8058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OCI_UPL_FOOTPRINTS:C_2312"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 53.34 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8104,7 +8069,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/short/qcd8n7"
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM32ER71H106KA12%23"
 			(at 53.34 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8126,7 +8091,7 @@
 				)
 			)
 		)
-		(property "Part #" "T491C106K025AT"
+		(property "Part #" "GRM32ER71H106KA12L"
 			(at 53.34 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8137,7 +8102,7 @@
 				)
 			)
 		)
-		(property "UPL #" "2.021"
+		(property "UPL #" ""
 			(at 53.34 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9191,7 +9156,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
+		(lib_id "Device:C_US")
 		(at 62.23 144.78 90)
 		(unit 1)
 		(body_style 1)
@@ -9212,7 +9177,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF_t"
+		(property "Value" "10uF 50V"
 			(at 71.12 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9223,7 +9188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OCI_UPL_FOOTPRINTS:C_2312"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 68.58 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -9234,7 +9199,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/short/qcd8n7"
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM32ER71H106KA12%23"
 			(at 57.15 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -9256,7 +9221,7 @@
 				)
 			)
 		)
-		(property "Part #" "T491C106K025AT"
+		(property "Part #" "GRM32ER71H106KA12L"
 			(at 55.88 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -9267,7 +9232,7 @@
 				)
 			)
 		)
-		(property "UPL #" "2.021"
+		(property "UPL #" ""
 			(at 67.31 144.78 0)
 			(hide yes)
 			(show_name no)
