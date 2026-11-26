@@ -8094,7 +8094,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM32ER71H106KA12%23"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL32B106KBJNNN.do"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8255,7 +8255,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM32ER71H106KA12%23"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL32B106KBJNNN.do"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10096,7 +10096,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM32ER71H106KA12%23"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL32B106KBJNNN.do"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
