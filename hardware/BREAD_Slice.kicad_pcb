@@ -8542,8 +8542,8 @@
 			)
 		)
 	)
-	(gr_text "BREAD Slice\nStepper Driver\n(SLC_STEP)\nCam K Brooks\nrev.A [09-2024]"
-		(at 115.55 107.8 -90)
+	(gr_text "BREAD Slice\nStepper Motor\nDriver Carrier\nSLC_STEP\nCam K Brooks\nR1 11-2026"
+		(at 134 50 0)
 		(layer "F.SilkS")
 		(uuid "4aa97874-2fd2-414c-b381-9420384c2fd8")
 		(effects
