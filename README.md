@@ -73,6 +73,25 @@ only. No position ties the CUSTOM supply to the bus.
   (IPC-2221 estimate). The M_POWER runs to the drivers are 1.5 mm, about
   3.2 A on the same basis.
 
+## Microstep mode
+
+Each driver's step resolution is set by three solder jumpers on the back
+of the board, beside that driver's MS1-MS3 pins (labelled MS1, MS2, MS3;
+JP1-3 for driver 1 up to JP10-12 for driver 4). Closing a jumper ties that
+pin to VDD (+5V). The A4988 pulls MS1-MS3 down internally, so an open
+jumper reads low.
+
+| MS1 | MS2 | MS3 | Step |
+| --- | --- | --- | --- |
+| open | open | open | full (default) |
+| closed | open | open | 1/2 |
+| open | closed | open | 1/4 |
+| closed | closed | open | 1/8 |
+| closed | closed | closed | 1/16 |
+
+The Nano does not drive these pins: A6 and A7 are analog-input-only on the
+ATmega328P, and D13 is left free.
+
 ## Installation
 [Provide instructions for installing any necessary software or hardware components.]
 
