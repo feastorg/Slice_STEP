@@ -53,6 +53,54 @@
 ## Project Overview
 [Describe the project in more detail. This section can be split into subsections if necessary.]
 
+## Ratings
+
+Motor supply (VMOT, the board's M_POWER net) comes from one of two sources,
+picked by a jumper on J5:
+
+| J5 jumper | Drivers powered from | VMOT range |
+| --- | --- | --- |
+| pins 2-3 (OUT-12V) | BREAD bus +12V (J1 pins 2 and 9) | 12 V, as the bus supplies |
+| pins 1-2 (CUSTOM-OUT) | CUSTOM PWR terminal J6 (+ pin 1, - pin 2) | 8-35 V |
+
+J5 pin 1 is CUSTOM, pin 2 is M_POWER (OUT), pin 3 is +12V. Fit one jumper
+only. No position ties the CUSTOM supply to the bus.
+
+- 8-35 V is the A4988 carrier's motor supply range (Pololu #1182). The
+  CUSTOM input's bypass capacitor C3 is rated 50 V (10 uF X7R).
+- Every figure below is the total VMOT current of all four drivers
+  together, not a per-driver figure (IPC-2221 estimate, 1 oz outer copper,
+  20 C rise unless stated). All of it passes through the J5 jumper, so it
+  is also capped by the rating of the shunt fitted there.
+- 12 V mode: the bus feed's narrowest stretch is 1.0 mm, about 3.2 A
+  (2.4 A for a 10 C rise).
+- CUSTOM mode: the run from J6 pin 1 to J5 pin 1 is 1.5 mm, about 4.3 A.
+- From J5 pin 2, M_POWER carries all four drivers through a 1.9 mm neck
+  between J4 pin 8 and J5 pin 3 (about 5.2 A), then a pour at least 4.2 mm
+  wide to C6 (drivers 1-3), then 2.5 mm to drivers 2 and 1. Each pin 8
+  takes its own driver's current only.
+- So the board carries about 3 A in total in 12 V mode and about 4 A in
+  CUSTOM mode, shared by however many drivers run at once.
+
+## Microstep mode
+
+Each driver's step resolution is set by three solder jumpers on the back
+of the board, beside that driver's MS1-MS3 pins (labelled MS1, MS2, MS3;
+JP1-3 for driver 1 up to JP10-12 for driver 4). Closing a jumper ties that
+pin to VDD (+5V). The A4988 pulls MS1-MS3 down internally, so an open
+jumper reads low.
+
+| MS1 | MS2 | MS3 | Step |
+| --- | --- | --- | --- |
+| open | open | open | full (default) |
+| closed | open | open | 1/2 |
+| open | closed | open | 1/4 |
+| closed | closed | open | 1/8 |
+| closed | closed | closed | 1/16 |
+
+The Nano does not drive these pins: A6 and A7 are analog-input-only on the
+ATmega328P, and D13 is left free.
+
 ## Installation
 [Provide instructions for installing any necessary software or hardware components.]
 

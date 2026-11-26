@@ -27,6 +27,18 @@ const int stepPin3 = 9;
 const int dirPin4 = 12;
 const int stepPin4 = 11;
 
+// Microstep mode is set in hardware, per driver, by solder jumpers on the
+// back of the board (JP1-3 = driver 1 MS1-MS3 ... JP10-12 = driver 4).
+// The A4988 pulls MS1-MS3 down internally: open = L, closed = H (VDD).
+//   MS1 MS2 MS3
+//    L   L   L   full step (all jumpers open, the default)
+//    H   L   L   1/2 step
+//    L   H   L   1/4 step
+//    H   H   L   1/8 step
+//    H   H   H   1/16 step
+// The Nano does not drive MS1-MS3 (A6 and A7 are analog inputs only on the
+// ATmega328P), so step counts here are in the mode the jumpers select.
+
 // Variables for command parameters
 int inputSteps1 = 0;
 int inputSteps2 = 0;
@@ -86,8 +98,6 @@ void setup() {
   config(2, 1000, 50, 200); //put some default parameters here
   config(3, 1000, 50, 200); //put some default parameters here
   config(4, 1000, 50, 200); //put some default parameters here
- 
-  setStep(0,0,0);
 }
 
 void loop() {
@@ -255,13 +265,6 @@ void getFeedback(){
   Serial.print(", ");
   Serial.println(F4);
   
-}
-
-void setStep(int i, int j, int k){
-  // i, j, k == MS1, MS2, MS3
-  digitalWrite(13, k);
-  digitalWrite(A6, i);
-  digitalWrite(A7, j);
 }
 
 void home(int axis, int path){
