@@ -9044,46 +9044,46 @@
 			)
 		)
 	)
-	(gr_text "STEP DRIVER\n1"
-		(at 168.33 51.535001 90)
+	(gr_text "DRIVER 1"
+		(at 169.5 51.535 90)
 		(layer "F.SilkS")
 		(uuid "5d3dcfbe-1fa4-4657-88bd-3cdf1e0ea81f")
 		(effects
 			(font
-				(size 2 2)
+				(size 1.2 1.2)
 				(thickness 0.15)
 			)
 		)
 	)
-	(gr_text "STEP DRIVER\n2"
-		(at 168.33 74.395001 90)
+	(gr_text "DRIVER 2"
+		(at 169.5 79.3 90)
 		(layer "F.SilkS")
 		(uuid "e500c93d-d9e1-41bc-952d-98dc196d0ba0")
 		(effects
 			(font
-				(size 2 2)
+				(size 1.2 1.2)
 				(thickness 0.15)
 			)
 		)
 	)
-	(gr_text "STEP DRIVER\n3"
-		(at 168.33 97.255001 90)
+	(gr_text "DRIVER 3"
+		(at 169.0 96.3 90)
 		(layer "F.SilkS")
 		(uuid "3b8ba2e5-6942-4938-b2a2-9dfece224b6f")
 		(effects
 			(font
-				(size 2 2)
+				(size 1.2 1.2)
 				(thickness 0.15)
 			)
 		)
 	)
-	(gr_text "STEP DRIVER\n4"
-		(at 168.33 120.750001 90)
+	(gr_text "DRIVER 4"
+		(at 169.5 120.75 90)
 		(layer "F.SilkS")
 		(uuid "b0c82337-8700-4eca-8511-987c30d9bc03")
 		(effects
 			(font
-				(size 2 2)
+				(size 1.2 1.2)
 				(thickness 0.15)
 			)
 		)
