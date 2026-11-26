@@ -53,6 +53,26 @@
 ## Project Overview
 [Describe the project in more detail. This section can be split into subsections if necessary.]
 
+## Ratings
+
+Motor supply (VMOT, the board's M_POWER net) comes from one of two sources,
+picked by a jumper on J5:
+
+| J5 jumper | Drivers powered from | VMOT range |
+| --- | --- | --- |
+| pins 2-3 (OUT-12V) | BREAD bus +12V (J1 pins 2 and 9) | 12 V, as the bus supplies |
+| pins 1-2 (CUSTOM-OUT) | CUSTOM PWR terminal J6 (+ pin 1, - pin 2) | 8-35 V |
+
+J5 pin 1 is CUSTOM, pin 2 is M_POWER (OUT), pin 3 is +12V. Fit one jumper
+only. No position ties the CUSTOM supply to the bus.
+
+- 8-35 V is the A4988 carrier's motor supply range (Pololu #1182). The
+  CUSTOM input's bypass capacitor C3 is rated 50 V (10 uF X7R).
+- In 12 V mode all four drivers draw through the bus feed; its narrowest
+  stretch is 1.0 mm of 1 oz copper, about 2.4 A in total for a 10 C rise
+  (IPC-2221 estimate). The M_POWER runs to the drivers are 1.5 mm, about
+  3.2 A on the same basis.
+
 ## Installation
 [Provide instructions for installing any necessary software or hardware components.]
 
