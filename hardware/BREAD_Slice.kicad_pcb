@@ -8135,6 +8135,32 @@
 				(justify mirror)
 			)
 		)
+		(property "Part #" "CL32B106KBJNNNE"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "984d73ba-d93d-4888-b5d8-fc1d855780ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UPL #" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0c09752c-1314-435e-ab82-0ac0991c94ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005fe84189")
 		(sheetname "/")
 		(sheetfile "BREAD_Slice.kicad_sch")
@@ -8291,6 +8317,32 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "CL32B106KBJNNNE"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f0cf4f6b-65fb-4fdc-bb52-b0ef304042d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UPL #" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "65d4aa0c-bbac-47ea-847f-5e304aba8d58")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -10132,6 +10184,32 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part #" "CL32B106KBJNNNE"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7b661272-f91a-46a9-bc1d-0a6a07f67db9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UPL #" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1509f9ac-3e9e-4d7d-9bc4-f4d83316ecc9")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify mirror)
