@@ -7480,7 +7480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_5mm"
 			(at 27.94 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7555,7 +7555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_5mm"
 			(at 46.99 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7630,7 +7630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_5mm"
 			(at 27.94 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -7705,7 +7705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_5mm"
 			(at 46.99 129.54 0)
 			(hide yes)
 			(show_name no)
